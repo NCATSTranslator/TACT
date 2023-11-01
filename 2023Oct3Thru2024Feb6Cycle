@@ -1,0 +1,21 @@
+The following Translator Milestones are slated for the 2023 Oct 3 Thru 2024 Feb 6 Cycle:
+Implement the automated testing framework/harness/runner and add specific test instances to it
+Implement tested MVP1 workflows (Paths A, B, E) within the Curated Query Service (CQS) and deploy to test environment 
+Provide evidence that your tools can reliably support 20 sequential queries with a maximum of 10 seconds pause between each query (our current goal for performance in the short term) 
+Finalize source-based annotation of Knowledge Level / Agent Type (KL/AT]  in infores catalog 
+Display of KL/AT annotations on edges in UI support graphs
+Explore redesign of EPC view to provide clearer result provenance using support graphs/paths and EPC tables (leveraging KL/AT annotations) 
+Fix Biolink documentation
+Infores Catalog / Wiki Page Documentation
+Refactor id_prefixes for ChemicalEntity hierarchy 
+Treats predicate and qualifier refactor (in Biolink) - refactor for KPs coming in the _next_ release, not this release.
+Define qualifier pattern for representing Gene overexpression/knockdown
+General Documentation maintenance/enhancements (specific to EPC documentation)
+AuxGraph representation of evidence for inferences based on empirical data (Improving Agent)
+Topology-based assessment of support path evidence for improved scoring (start cataloging support metapaths used by ARA reasoners)
+Implement full KL/AT model in Biolink
+Create a test plan 
+Integrate PFOCR with enrichment: prework needed from BTE and Ranking Agent, UI should be briefed on the work that BTE and Ranking Agent does before involving UI
+Ensure Appraiser returns all ordering components (e.g., scores) for all queries (not just MVP1)
+Revisit SRI confidence score [g() function]: 
+Define next MVP query/pattern
