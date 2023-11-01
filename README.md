@@ -6,4 +6,4 @@ Welcome to TACT (Translator Agenda Coordination Team) Repo.
 <li><a href="https://docs.google.com/spreadsheets/d/1GfNrmpr27223KZd0YvMAuWQSSWB3_SFN5HBgQxwPkHw/edit#gid=0">Two-Month Cycle Milestones</a></li>
 <li><a href="https://docs.google.com/document/d/1h4_UKf4gwnOMFyAYPM7WajZ43NHgHZX93eHHK3pzMtU/edit?usp=sharing">Release Process</a></li>
 <li><a href="https://docs.google.com/spreadsheets/d/1zU0I1upEZrdFavjHT9rRYofy7FaZp-MNGCoUkhYp5Ig/edit#gid=1709744959">Release Timeline</a></li></ul>
- 
+ <p>Each two-month cycle milestones will be listed in a file in this repo. Each two-month cycle milestones will be voted on using the PR reviewer votes. Refer to the Release Process doc above for details.</p>
