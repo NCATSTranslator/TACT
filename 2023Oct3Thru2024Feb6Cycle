@@ -19,3 +19,4 @@ Integrate PFOCR with enrichment: prework needed from BTE and Ranking Agent, UI s
 Ensure Appraiser returns all ordering components (e.g., scores) for all queries (not just MVP1)
 Revisit SRI confidence score [g() function]: 
 Define next MVP query/pattern
+Support additional CURIE prefixes
