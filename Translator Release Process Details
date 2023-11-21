@@ -10,7 +10,7 @@ GOAL: To establish a predictable schedule for deployment requests, coordinate de
 Definition: Do good work and keep in touch. 
 
 Freeze-and-prep window (1 month):
-GOAL: To come together as a unified consortia to coordinate agendas between our working groups and committees, be transparent about when work is coming for different teams, give testers the ability to see what they should be testing with priority for a release, and try to reduce the “pre-relay scramble.”  
+GOAL: To come together as a unified consortium to coordinate agendas between our working groups and committees, be transparent about when work is coming for different teams, give testers the ability to see what they should be testing with priority for a release, and try to reduce the “pre-relay scramble.”  
 Definition: Finalize the Release to PROD (testing) and Plan the next release (TACT)
 Current Release Finalization
 Manual SMuRF (Subject Matter Reasonably Familiar) / SME (Subject Matter Expert) testing on TEST of new component(s) or extensive updates to existing components that were approved during the prior release planning cycle.  Testing may also reveal bugs not related to the deployed code and/or can identify new feature requests.  
