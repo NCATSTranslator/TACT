@@ -22,7 +22,7 @@ TACT decides on a case-by-case basis if production deployment is go/no-go for ne
 TACT votes via procedures outlined in the current Consortium Guidelines - see Change Management section here
 Subsequent Release Planning
 Team/Working Group/Committee/External Group bring proposal(s) for new component(s) or extensive updates to existing component(s) to TACT for review
-Teams to include the following details: 
+The following details should be included in these proposals:
 Theme (required) 
 e.g. what working group, committee, architecture component this task belongs to.
 Milestone: a short, executive summary of the proposed work. (required)
