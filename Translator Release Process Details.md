@@ -1,75 +1,74 @@
-Translator Release Process Details
+# Translator Release Process Details
 
 The proposed “release process” is just three simple phases: 
-Code Window
-Freeze and Prep Window
-Retrospective
+* **Code Window**
+* **Freeze and Prep Window**
+* **Retrospective**
 
-Code window (2 months): 
-GOAL: To establish a predictable schedule for deployment requests, coordinate deployments between interdependent components, and help improve our various teams’ ability to plan ahead.
-Definition: Do good work and keep in touch. 
+## I. Code window (2 months): 
+* **GOAL:** To establish a predictable schedule for deployment requests, coordinate deployments between interdependent components, and help improve our various teams’ ability to plan ahead.
+  * **Definition:** Do good work and keep in touch. 
 
-Freeze-and-prep window (1 month):
-GOAL: To come together as a unified consortium to coordinate agendas between our working groups and committees, be transparent about when work is coming for different teams, give testers the ability to see what they should be testing with priority for a release, and try to reduce the “pre-relay scramble.”  
-Definition: Finalize the Release to PROD (testing) and Plan the next release (TACT)
-Current Release Finalization
-Manual SMuRF (Subject Matter Reasonably Familiar) / SME (Subject Matter Expert) testing on TEST of new component(s) or extensive updates to existing components that were approved during the prior release planning cycle.  Testing may also reveal bugs not related to the deployed code and/or can identify new feature requests.  
-The SMuRF coordinator should be able to tell from the milestones identified for the release, what the major areas of work should be tested for the release, what components or MVPs or displays need to be tested/confirmed in TEST.
-Note: when more automated tests are in place, we can re-evaluate the kinds of manual testing required.
-SMuRF coordinator might want to keep a simple list of manual tests that are helpful to confirm every release. 
-TAQA will meet each week to help triage resulting issues back to teams, request feedback from the group about what constitutes a bug that must be fixed before release, and also keep track of new issues/features for prioritization in the next release.
-TACT decides on a case-by-case basis if production deployment is go/no-go for new component(s)
-TACT votes via procedures outlined in the current Consortium Guidelines - see Change Management section here
-Subsequent Release Planning
-Team/Working Group/Committee/External Group bring proposal(s) for new component(s) or extensive updates to existing component(s) to TACT for review
-The following details should be included in these proposals:
-Theme (required) 
-e.g. what working group, committee, architecture component this task belongs to.
-Milestone: a short, executive summary of the proposed work. (required)
-e.g. - Fix Biolink Documentation: Deliver a refactored repository following LinkML best practices with documentation that is searchable and navigable as it previously was.
-e.g. - Host a series of discussions around modeling “variants” for use in Translator: At the end of the cycle, propose options to the Data Modeling team for confirmation. 
-e.g. - Revisit SRI confidence score [g() function]: deploy a revised scoring algorithm that takes SRI confidence score into account.
-Specific steps to accomplish the milestone (or a link to a GitHub project tracker) (required)
-Timeline for completing the proposed work
-Responsible teams (or individuals) (required)
-Status (optional)
-Any additional notes that help clarify the tasks represented by the deliverable (optional)
-e.g. - will this involve release coordination with any other teams? 
-e.g. - will the release of this component mean work for another team next release? 
-Example: winter 2023/4 release milestones reviewed by TACT
-TACT defines the work units required for production deployment of the proposed component(s) as part of the next release.
+## II. Freeze-and-prep window (1 month):
+* **GOAL:** To come together as a unified consortium to coordinate agendas between our working groups and committees, be transparent about when work is coming for different teams, give testers the ability to see what they should be testing with priority for a release, and try to reduce the “pre-relay scramble.”  
+  * **Definition:** Finalize the Release to PROD (testing) and Plan the next release (TACT)
+* **Current Release Finalization**
+  * Manual SMuRF (Subject Matter Reasonably Familiar) / SME (Subject Matter Expert) testing on TEST of new component(s) or extensive updates to existing components that were approved during the prior release planning cycle.  Testing may also reveal bugs not related to the deployed code and/or can identify new feature requests.  
+    * The SMuRF coordinator should be able to tell from the milestones identified for the release, what the major areas of work should be tested for the release, what components or MVPs or displays need to be tested/confirmed in TEST.
+      * Note: when more automated tests are in place, we can re-evaluate the kinds of manual testing required.
+      * SMuRF coordinator might want to keep a simple list of manual tests that are helpful to confirm every release. 
+    * TAQA will meet each week to help triage resulting issues back to teams, request feedback from the group about what constitutes a bug that must be fixed before release, and also keep track of new issues/features for prioritization in the next release.
+  * TACT decides on a case-by-case basis if production deployment is go/no-go for new component(s)
+    * TACT votes via procedures outlined in the current Consortium Guidelines - see Change Management section here
+* **Subsequent Release Planning**
+    * Team/Working Group/Committee/External Group bring proposal(s) for new component(s) or extensive updates to existing component(s) to TACT for review. The following details should be included in these proposals:
+      * **Theme (required)** 
+        * e.g. what working group, committee, architecture component this task belongs to.
+      * **Milestone:** a short, executive summary of the proposed work. (required)
+        * e.g. - Fix Biolink Documentation: Deliver a refactored repository following LinkML best practices with documentation that is searchable and navigable as it previously was.
+        * e.g. - Host a series of discussions around modeling “variants” for use in Translator: At the end of the cycle, propose options to the Data Modeling team for confirmation. 
+        * e.g. - Revisit SRI confidence score [g() function]: deploy a revised scoring algorithm that takes SRI confidence score into account.
+      * **Specific steps to accomplish the milestone** (or a link to a GitHub project tracker) (required)
+      * **Timeline** for completing the proposed work
+      * **Responsible teams** (or individuals) (required)
+      * **Status** (optional)
+      * Any additional **notes** that help clarify the tasks represented by the deliverable (optional)
+        * e.g. - will this involve release coordination with any other teams? 
+        * e.g. - will the release of this component mean work for another team next release? 
+    * **Example:** winter 2023/4 release milestones reviewed by TACT
+  * TACT defines the work units required for production deployment of the proposed component(s) as part of the next release.
 
-Review process, revise if necessary, and repeat as part of next release
-GOAL: formalize the need to not institutionalize processes that make production of Translator components unnecessarily difficult, slow, confusing, or monotonous.
-Retrospective participants should feel comfortable expressing their successes and challenges in the context of the release, bringing with them specific examples (when possible) of things that were good or bad, preferably with suggestions on how to make the process better.  
-Hotfixes
-GOAL: Allow changes to go into PROD during the coding window when they address critical errors in the deployed feature.
-Definition: a hotfix is a code change to address a bug that is deployed between official release cycles. Hotfixes do not address non-critical issues, new features, or incremental improvements and optimizations.
-Policy: Teams can propose hotfixes to be reviewed and approved by TACT
-TACT members making hotfix decisions, will greatly benefit from hotfix descriptions following a basic template:
-Sample Changelog for Code Window deployments to PROD
-sample changelog for PROD deployment request - ARAX
+## III. Review process, revise if necessary, and repeat as part of next release
+  * **GOAL:** formalize the need to not institutionalize processes that make production of Translator components unnecessarily difficult, slow, confusing, or monotonous.
+    * Retrospective participants should feel comfortable expressing their successes and challenges in the context of the release, bringing with them specific examples (when possible) of things that were good or bad, preferably with suggestions on how to make the process better.  
 
-Translator Release Schedule Timeline
-Translator Release Process Guidelines
+## IV. Hotfixes
+* **GOAL:** Allow changes to go into PROD during the coding window when they address critical errors in the deployed feature.
+* **Definition:** a hotfix is a code change to address a bug that is deployed between official release cycles. Hotfixes do not address non-critical issues, new features, or incremental improvements and optimizations.
+* **Policy:** Teams can propose hotfixes to be reviewed and approved by TACT
+  * TACT members making hotfix decisions, will greatly benefit from hotfix descriptions following a basic template:
+    * [Sample Changelog for Code Window deployments to PROD](https://docs.google.com/document/d/1v9qT8g8CUIuvSq2JMNRYDZcvhYLQuV9QhOLmcl4ne7Y/edit#heading=h.cm9drbbgry6a)
+    * [sample changelog for PROD deployment request - ARAX](https://docs.google.com/document/d/1YYqasU0bcrEmxBM6yHBa0Z_4Enq8UcCifgMb4KVu7MQ/edit#heading=h.cm9drbbgry6a)
 
+[Translator Release Schedule Timeline](https://docs.google.com/spreadsheets/d/1zU0I1upEZrdFavjHT9rRYofy7FaZp-MNGCoUkhYp5Ig/edit?usp=sharing)
+[Translator Release Process Guidelines](https://docs.google.com/document/d/1h4_UKf4gwnOMFyAYPM7WajZ43NHgHZX93eHHK3pzMtU/edit?usp=sharing)
 
-Nomenclature:
-Code Window - develop the priorities set for the window 
-Deliverables:
-Accomplish the goals set up in the Freeze/Slush and Prep Window.
-Changelog and request to ITRB to move to TEST in the first week of the Freeze/Slush Prep Window. 
-Per Release Guidelines, during the two month code window and freeze-and-prep period, no releases to Prod will be scheduled. Exceptions: UI and hotfixes. 
-Freeze/Slush and Prep Window
-TAQA - test, triage, retest 
-Two weeks of iteration on CI
-Two pushes (push request due on Friday before) to TEST on Tuesdays
-Deliverables: 
-Weekly pushes to TEST with changelog
-Fully tested code
-TACT - set priorities for the next coding window
-Deliverables: 
-Host WGs and Committees to discuss next-release cycle priorities
-The next release cycle plan
-A process retrospective: host a 15-minute review of the process, how it worked, and what could be improved
-Release to PROD! 
+**Nomenclature:**
+* **Code Window** - develop the priorities set for the window 
+  * _Deliverables:_
+    * Accomplish the goals set up in the Freeze/Slush and Prep Window.
+    * Changelog and request to ITRB to move to TEST in the first week of the Freeze/Slush Prep Window. 
+  * Per Release Guidelines, during the two month code window and freeze-and-prep period, no releases to Prod will be scheduled. Exceptions: UI and hotfixes. 
+* **Freeze/Slush and Prep Window**
+  * TAQA - test, triage, retest 
+    * Two weeks of iteration on CI
+    * Two pushes (push request due on Friday before) to TEST on Tuesdays
+    * _Deliverables:_ 
+      * Weekly pushes to TEST with changelog
+      * Fully tested code
+  * TACT - set priorities for the next coding window
+    * _Deliverables:_ 
+      * Host WGs and Committees to discuss next-release cycle priorities
+      * The next release cycle plan
+      * A process retrospective: host a 15-minute review of the process, how it worked, and what could be improved
+* **Release to PROD!** 
