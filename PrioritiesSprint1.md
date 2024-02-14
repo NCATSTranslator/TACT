@@ -19,6 +19,8 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - Test for child terms
 
 # Scalability
+## Pre-Development
+- TRAPI defines syntax for bypassing caches in tools
 ## Work in CI (Lobster)
 - Send concurrent queries (MVP1 & 2) in batches of 5, 10, 15, 20, 25, 30
 ## Work in Test (Pre-Lobster)
