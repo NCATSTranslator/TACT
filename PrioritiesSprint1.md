@@ -56,7 +56,7 @@ Each priority has a list of subtasks that are to be completed within this sprint
 
 # New Merged Scores
 ## Pre-Development
-- Address g() and f() for ordering / confidence score ties for MVP1 and MVP2
+- Address Confidence (aka g()) and Ordering (aka f()) scores for ordering / confidence score ties for MVP1 and MVP2
 - Clarify testing process (data, metrics, pass/fail)
 - Each project specifies its benchmarks
 - Make CoLab code ready for O&O tests
@@ -66,7 +66,7 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - Add tags to the information radiator to make clear which ARAs are failing
 - Pull tagged information from the radiator into a spreadsheet grouped by ARA
 - Decide per-team targets (how many failing tests need to be fixed per team) based on information in the spreadsheet
-- ARAs implement fixes to reach targets
+- ARAs implement fixes so that no ARA has more than 100 failing tests or more than 100 tests that do not return results
 
 # Display Full KL/AT in the UI
 ## Pre-Development
