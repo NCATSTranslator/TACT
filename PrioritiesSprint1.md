@@ -36,15 +36,16 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - KPs implement Biolink 4.x including the refactoring of treats edges
 
 # CQS
+## Pre-Development
+- Extend CQS to support new MVP workflows
+- Develop valid TRAPI queries and deposit to CQS repo
+- Identify relevant tests assets and deposit to Testing Team's G-sheet/repo
+- Direct CQS tests in DEV using test assets
 ## Work in CI (Lobster)
 - Push initial workflows (Paths A, B, E) to TEST (end of cycle) contingent on CI tests
 - Hook up CI instance of CQS to ARS in CI
 - Direct CQS CI tests using test assets with new Q-A pairs
 - ARS CI tests using Information Radiator
-- Extend CQS to support new MVP workflows
-- Develop valid TRAPI queries and deposit to CQS repo
-- Identify relevant tests assets and deposit to Testing Team's G-sheet/repo
-- Direct CQS tests in DEV using test assets
 
 # MultiCURIE Queries
 ## Pre-Development
