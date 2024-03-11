@@ -24,6 +24,7 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - Discussion with UI around display of KL/AT annotations
 ## Octopus (CI):
 - KPs annotate edges in their KGs with KL/AT terms
+- Test that the UI correctly represents the foundational edge
 
 # Treats Refactor
 ## Octopus (CI):
