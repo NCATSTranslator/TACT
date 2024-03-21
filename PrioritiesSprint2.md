@@ -30,10 +30,11 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - ARAs annotate their created edges with KL/AT terms
 
 # Treats Refactor
+## Pre-Development
+- DM and UI collaborate to ensure that the provenance of new inferred treats edges is correctly represented (design).
 ## Octopus (CI):
 - ARAs implement new reasoning and scoring based on changes in treats edges from KPs
 - Implement new CQS templates to regenerate former treats edges as predictions with aux graphs referring to the foundational edge.
-- 
 
 # New Merged Scores
 ## Pre-Development
