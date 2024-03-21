@@ -68,6 +68,8 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - Each ARAs should have no more than 75 tests in which they do not return results
 - CQS should return no more than 75 failures
 - Implement all test runs from the Test Run Schedule that can currently be supported
+- Implement MVP2 Tests
+- Testing WG coordinates with ARAs and CQS to reach the above metrics
 
 # Fix TAQA issues
 ## Octopus (CI):
