@@ -57,10 +57,12 @@ Each priority has a list of subtasks that are to be completed within this sprint
 ## Pre-development
 - Develop new MVP1 and MVP2 workflows
 ## Eel (DEV):
-- develop mvp1-template4-infores:aeolus; push to CI at end of sprint
+- develop mvp1-template4-service-provider-aeolus; push to CI at end of sprint
+- develop mvp1-template5-spoke-chembl; push to CI at end of sprint
 ## Octopus (CI):
-- finalize mvp1-template1-clinical-cps; push to CI at end of sprint
-- finalize mvp1-template3-openpredict; push to CI at end of sprint
+- finalize mvp1-template1-clinical-cps; push to TEST at end of sprint
+- finalize mvp1-template3-openpredict; push to TEST at end of sprint
+- Test the CI templates using the Testing Harness; TAQA
 
 # Fix Failing Automated Tests
 ## Octopus (CI):
