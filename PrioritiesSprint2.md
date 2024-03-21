@@ -60,7 +60,7 @@ Each priority has a list of subtasks that are to be completed within this sprint
 - develop mvp1-template4-service-provider-aeolus; push to CI at end of sprint
 - develop mvp1-template5-spoke-chembl; push to CI at end of sprint
 ## Octopus (CI):
-- finalize mvp1-template1-clinical-cps; push to TEST at end of sprint
+- finalize mvp1-template1-clinical-kps; push to TEST at end of sprint
 - finalize mvp1-template3-openpredict; push to TEST at end of sprint
 - Test the CI templates using the Testing Harness; TAQA
 
