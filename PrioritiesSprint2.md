@@ -65,8 +65,8 @@ Each priority has a list of subtasks that are to be completed within this sprint
 # Fix Failing Automated Tests
 ## Octopus (CI):
 - Resolve Test-running Issues
-- Each ARAs should return no more than 75 failures
-- Each ARAs should have no more than 75 tests in which they do not return results
+- Each ARA should return no more than 75 failures
+- Each ARA should have no more than 75 tests in which they do not return results
 - CQS should return no more than 75 failures
 - Implement all test runs from the Test Run Schedule that can currently be supported
 - Implement MVP2 Tests
