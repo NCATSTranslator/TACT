@@ -48,8 +48,8 @@ Note that ARAs will be required to implement either MCQ or Pathfinder (or both).
 
 # CQS Workflows
 ## Eel (CI):
--  Test and iterate mvp1-template1-clinical-kps, mvp1-template3-openpredict, and mvp1-template4-bte-aeolus
--  Push mvp1-template1-clinical-kps, mvp1-template3-openpredict, and mvp1-template4-bte-aeolus to TEST
+-  Test and iterate MVP1 workflows
+-  Push these workflows to TEST
 
 # Fix Failing Automated Tests
 The current number of tests is 484, so the number of new tests is (Number of tests - 484)
