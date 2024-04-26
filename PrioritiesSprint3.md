@@ -52,15 +52,14 @@ Note that ARAs will be required to implement either MCQ or Pathfinder (or both).
 -  Push these workflows to TEST
 
 # Fix Failing Automated Tests
-The current number of tests is 484, so the number of new tests is (Number of tests - 484)
 ## Pre-Development
 - Implement MVP2 benchmarks (Testing)
 ## Eel (CI):
 - Deploy validation test runner (Testing)
 - Deploy stress test runner (Testing)
-- Reduce Test Failures for ARAs to < (100 + Number of New Tests) (ARAs)
-- Reduce No-Results for ARAs to < (50 + Number of New Tests) (ARAs)
-- Reduce Test Failures for CQS to < (20 + Number of New Tests) (CQS)
+- ARAs must pass at least 350 tests in the Sprint 3 Test Suite (ARAs)
+- ARAs must return results for at least 425 tests in the Sprint 3 Test Suite (ARAs)
+- CQS must pass at least 100 tests in the Sprint 3 Test Suite (CQS)
 
 # Fix TAQA issues
 ## Eel (CI):
