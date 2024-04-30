@@ -13,7 +13,7 @@ Note that ARAs will be required to implement either MCQ or Pathfinder (or both).
 - Design results page path  and graph display (similar to results now) - Dependencies: understanding of the number of paths and how they will be grouped (UI, ARAs)
 - Research to identify new facets needed. e.g. facets for other categories - Dependencies: pathfinder data examples (UI, ARAs)
 - User research filter designs for new filters like metaedge type or other. (UI)
-- Provides example datasets to UI (ARAs)
+- Each ARA provides results from the four example queries to UI (ARAs)
 ## Octopus (CI) work:
 - Evaluate performance and result quality from prototype implementations (ARAs)
 
