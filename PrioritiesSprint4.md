@@ -17,6 +17,7 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 ## Fugu (CI) work:
 - Implement Constraints
 - Improve Results
+- Evaluate walltime performance and set goals
 
 # MultiCURIE Query (MCQ)
 ## Pre-development work:
@@ -32,8 +33,11 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 - Experiment with and refine the summarization idea: Decide whether we will implement single-answer summarization, all-answers summarization, user querying over answers (RAG-like), or other approaches.
 
 # O&O Based grouping in the UI 
+## Pre-development work:
+- User testing to determine effectiveness of chemical grouping based on ATC and Chebi roles
+- User testing to determine effectiveness of gene grouping based on Genetics KP Gene Sets and PFOCR
 ## Fugu (CI):
-- Annotation Server returns grouping properties, ARS passes through, Groups are shown and managed by O&O
+- Implementation of Gene Set grouping API (Genetics KP)
 
 # Display Full KL/AT in the UI
 ## Pre-Development
@@ -43,12 +47,13 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 
 # Develop Automated Tests
 ## Pre-Development
-- Develop Benchmarking Suite
+- Add MVP2 tests to Benchmarking Suite
 - Implement automated tests for MCQ
+- Revise test cases based on ARA feedback
 
 # Fix Failing Automated Tests
 ## Fugu (CI):
-- Each ARA is expected to pass X tests from the Sprint 4 test suite, which focuses on TopAnswer results.
+- Each ARA is expected to pass 40 tests from the Sprint 4 test suite, which focuses on TopAnswer results.
 
 # Collect Feedback Issues
 ## Eel (TEST):
@@ -74,6 +79,11 @@ between June 26 and July 3, 2024
 # CLEAN-UP EFFORT: Documentation 
 ## Pre-development
 - Assess all documentation including (wiki pages, GH readme, GH pages, TRAPI docs, etc) and decide what requires effort in upcoming sprints.
+- For infores/wiki: 
+  1. get new UI MVP1/MVP2 dump from Andy; 
+  2. reconcile new dump with previous G-sheet and Infores Catalog; 
+  3. identify gaps in those primary knowledge sources that are being exposed via the UI in Octopus PROD release; 
+  4. highlight ARA wiki pages for review
 
 # Publications
 ## Pre-development
