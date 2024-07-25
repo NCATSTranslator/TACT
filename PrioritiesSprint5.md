@@ -21,10 +21,9 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 - Continue to improve results
 
 # MultiCURIE Query (MCQ)
-## Fugu (TEST) work:
+## Guppy (CI) work:
+- Complete inferred mode MCQ of 
 - Develop UI.  UI must be developed in a way that the build could be pushed to PROD with or without MCQ enabled
-- Manual MCQ testing once the UI is developed
-- Go / No-go decision on releasing MCQ to PROD
 
 # LLM Summarization 
 ## Pre-development work:
@@ -40,10 +39,16 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 ## Fugu (TEST):
 - Initial UI implmentation
 
+# Treats Refactor
+## Guppy (CI):
+- Teams remove Chembl Clinical Trials ingests
+- Clinical Trial KP deploys TRAPI endpoint; SmartAPI registration
+
 # Develop Automated Tests
 ## Pre-Development
 - Run Benchmarking Suite
-- Run MCQ Suite
+- Develop MCQ Suite
+- Develop Pathfinder Suite
 
 # Fix Failing Automated Tests
 ## Guppy (CI):
@@ -52,7 +57,7 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 # Collect Feedback Issues
 ## Fugu (TEST):
 - Each team must perform manual testing of the Fugu release in TEST and report issues to the Feedback repo
-between July 2 and July 9, 2024
+between August 2 and August 9, 2024
 - TAQA will review and prioritize the discovered issues
 
 # Fix Feedback issues
