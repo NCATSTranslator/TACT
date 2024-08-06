@@ -16,15 +16,20 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 # Develop Pathfinder Query
 ## Pre-development work:
 - Implement automated tests
-- Establish performance goals
 ## Guppy (CI) work:
-- Continue to improve results
+- ARAs Pass TRAPI validation
+- Non-responding ARAs return 501
+- ARS to test merging of Pathfinder responses
+- ARAs implement Constraints
 
 # MultiCURIE Query (MCQ)
-## Fugu (TEST) work:
-- Develop UI.  UI must be developed in a way that the build could be pushed to PROD with or without MCQ enabled
-- Manual MCQ testing once the UI is developed
-- Go / No-go decision on releasing MCQ to PROD
+## Guppy (CI) work:
+- Genetics KP to deploy GeneSet Enrichment
+- Complete inferred mode MCQ in ARA
+- Non responding ARAs return 501
+- Test results on example queries
+- ARS to test merging of MCQ responses
+- UI inspects inferred results; begins development
 
 # LLM Summarization 
 ## Pre-development work:
@@ -36,23 +41,38 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 
 # Display Full KL/AT in the UI
 ## Guppy (CI):
+- KPs complete implementation; reduce level of "unknown/not provided"
 - Complete QA of KP implementation
 ## Fugu (TEST):
-- Initial UI implmentation
+- Initial UI implmentation; dependent on KP completion
+
+# Treats Refactor
+## Guppy (CI):
+- Clinical Trial KP deploys TRAPI endpoint; SmartAPI registration
+- KPs (SPOKE, KG2, MolePro, SP) to start removing Chembl Clinical Trial ingests
+
+Move to Sprint 6:
+- KP remove Chembl Clinical Trials ingests
 
 # Develop Automated Tests
 ## Pre-Development
-- Run Benchmarking Suite
-- Run MCQ Suite
+- Develop Benchmarking Suite
+- Develop MCQ Suite
+- Develop Pathfinder Suite
+- Work on TRAPI Validation Runner
+- Address issues in the Test repo to improve the test cases
+- Programmatically address test case names and identifiers
+- Update Evaluation of Top Answer to move towards an absolute cutoff of 30
 
 # Fix Failing Automated Tests
 ## Guppy (CI):
-- Each ARA is expected to pass X tests from the Sprint 5 test suite
+- Each ARA is expected to pass 55 tests from the Top Answer Sprint 5 test suite
+- Each ARA is expected to pass 360 tests from the Never Show Sprint 5 test suite
 
 # Collect Feedback Issues
 ## Fugu (TEST):
 - Each team must perform manual testing of the Fugu release in TEST and report issues to the Feedback repo
-between July 2 and July 9, 2024
+between August 2 and August 9, 2024
 - TAQA will review and prioritize the discovered issues
 
 # Fix Feedback issues
@@ -65,6 +85,8 @@ between July 2 and July 9, 2024
 
 # CLEAN-UP EFFORT: Documentation 
 ## Pre-development
+- Each team closes Guppy documentation issues
 
 # Publications
 ## Pre-development
+- Collect feedback and use cases
