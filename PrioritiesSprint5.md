@@ -18,7 +18,7 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 - Implement automated tests
 ## Guppy (CI) work:
 - ARAs Pass TRAPI validation
-- Non-responding ARAs return 501(or 405 - double check)
+- Non-responding ARAs return 501
 - ARS to test merging of Pathfinder responses
 - ARAs implement Constraints
 
@@ -26,7 +26,7 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 ## Guppy (CI) work:
 - Genetics KP to deploy GeneSet Enrichment
 - Complete inferred mode MCQ in ARA
-- Non responding ARAs return 501(or 405 - double check)
+- Non responding ARAs return 501
 - Test results on example queries
 - ARS to test merging of MCQ responses
 - UI inspects inferred results; begins development
@@ -89,5 +89,4 @@ between August 2 and August 9, 2024
 
 # Publications
 ## Pre-development
-- Circulate Outline of proposed pub
-- Collect feedback and updates of outline
+- Collect feedback and use cases
