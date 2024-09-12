@@ -15,7 +15,9 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 
 # Develop Pathfinder Query
 # Hammerhead (CI) work:
-- Develop UI.  UI must be developed in a way that the build could be pushed to PROD with or without Pathfinder enabled
+- Final decision about what elements are being scored
+- Develop UI.
+- Add Cell Type to UI
 - Manual Pathfinder testing 
 
 # Develop Set Input
