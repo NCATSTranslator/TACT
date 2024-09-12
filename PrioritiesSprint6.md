@@ -17,7 +17,7 @@ Note that ARAs will be required to implement at least one of MCQ, Pathfinder, or
 # Hammerhead (CI) work:
 - Final decision about what elements are being scored
 - Develop UI.
-- Add Cell Type to UI
+- Create examples document
 - Manual Pathfinder testing 
 
 # Develop Set Input
