@@ -1,5 +1,3 @@
-This document is PROVISIONAL and will be udpated at the beginning of sprint 6 and subject to a new vote.
-
 These are the priorities for Sprint number 6, which runs from August 26, 2024 to October 4, 2024. 
 
 In this sprint, the builds are in these environments: 
